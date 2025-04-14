@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌕 LUNA: The Roundest Cat Alive</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <marquee behavior="scroll" direction="left">😹 Luna the Chonky Queen — So Round. So Powerful. So Lazy. 😹</marquee>
+    <img src="images/luna.png" alt="Luna the Chonk" class="header-img" />
+
+    <nav>
+      <ul>
+        <li><a href="#bio">Luna's Bio</a></li>
+        <li><a href="#diet">Her Diet (It's Intense)</a></li>
+        <li><a href="#gallery">Gallery of Glory</a></li>
+        <li><a href="#guestbook">Fat Fan Club</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="bio">
+        <h2>About Luna</h2>
+        <p>
+          Luna was born in a galaxy far away where gravity was just slightly stronger... that's probably why she became the most spherical feline to ever nap on a keyboard.
+        </p>
+        <p>
+          Some say she’s a cat. Others say she’s a sentient beach ball with whiskers. All we know is: SHE'S HUGE — and she’s proud.
+        </p>
+      </section>
+
+      <section id="diet">
+        <h2>What Does Luna Eat?</h2>
+        <ul>
+          <li>🔹 Tuna cakes (plural)</li>
+          <li>🔹 Leftover pizza crusts (don't ask how)</li>
+          <li>🔹 Anything that falls on the floor</li>
+          <li>🔹 Her own weight in kibble — daily</li>
+        </ul>
+        <button onclick="launchPopup()">Click to witness her snack attack 🍗</button>
+      </section>
+
+      <section id="gallery">
+        <h2>The Gallery of the Spherical One</h2>
+        <img src="images/luna1.png" alt="Luna loaf mode" class="gallery-img" />
+        <img src="images/luna2.png" alt="Luna taking over the bed" class="gallery-img" />
+        <img src="images/luna3.png" alt="Is she sitting or melting?" class="gallery-img" />
+        <img src="images/luna4.png" alt="Parece um balaozao" class="gallery-img" />
+      </section>
+
+      <section id="guestbook">
+        <h2>Join the Chonk Club</h2>
+        <form id="guestbook-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Tell Luna how fat she is (nicely)." required></textarea>
+          <button type="submit">Submit Tribute</button>
+        </form>
+        <div id="guestbook-entries"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2000-LunaForever. All purrs reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

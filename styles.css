@@ -1,0 +1,117 @@
+/* styles.css - Chunky Retro Elegance */
+
+body {
+    background: url('images/sparkle_bg.gif');
+    color: #ffccff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    border: 5px double hotpink;
+    box-shadow: 0 0 25px magenta;
+  }
+  
+  marquee {
+    background: purple;
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-bottom: 4px dashed fuchsia;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: hotpink;
+    text-decoration: none;
+    font-weight: bold;
+    background: black;
+    padding: 0.5rem 1rem;
+    border: 2px outset pink;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    background: yellow;
+    color: purple;
+    transform: scale(1.1);
+    border: 2px inset magenta;
+  }
+  
+  .header-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border: 5px groove gold;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: gold;
+    margin-top: 2rem;
+    text-shadow: 2px 2px black;
+  }
+  
+  button {
+    background: hotpink;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 3px dotted yellow;
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1; }
+  }
+  
+  .gallery-img {
+    width: 30%;
+    margin: 1rem;
+    border: 4px ridge deeppink;
+    box-shadow: 0 0 10px hotpink;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 2px solid pink;
+    font-family: "Comic Sans MS";
+    font-size: 1rem;
+  }
+  
+  footer {
+    background: black;
+    color: hotpink;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 3px dashed white;
+  }
+  
+  .entry {
+    margin: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border: 2px dashed pink;
+    color: lightyellow;
+    font-size: 0.95rem;
+  }  
